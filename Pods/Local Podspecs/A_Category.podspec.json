@@ -1,0 +1,28 @@
+{
+  "name": "A_Category",
+  "version": "2",
+  "summary": "A_Category.",
+  "description": "this is A_Category",
+  "homepage": "https://github.com/ModularizationTest/A_Category",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/ModularizationTest/A_Category.git",
+    "tag": "2"
+  },
+  "source_files": "A_Category/A_Category/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}

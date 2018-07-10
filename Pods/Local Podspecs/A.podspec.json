@@ -1,0 +1,23 @@
+{
+  "name": "A",
+  "version": "2",
+  "summary": "A.",
+  "description": "this is A",
+  "homepage": "https://github.com/ModularizationTest/A",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/ModularizationTest/A.git",
+    "tag": "2"
+  },
+  "source_files": "A/A/**/*.{h,m}",
+  "requires_arc": true
+}

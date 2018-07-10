@@ -1,1 +1,1 @@
-# MainProject
+pod "MainProject"
