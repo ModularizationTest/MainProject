@@ -38,7 +38,7 @@
 - (void)didTappedPushAViewControllerButton:(UIButton *)button
 {
 //    AViewController *viewController = [[AViewController alloc] init];
-    UIViewController *viewController = [[CTMediator sharedInstance] A_aViewController];
+    UIViewController *viewController = [[CTMediator sharedInstance] A_aViewControllerWithCallback:nil];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 
