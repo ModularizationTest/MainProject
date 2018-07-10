@@ -13,9 +13,9 @@
 		4A510BB61DFB91B0005B9DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A510BB41DFB91B0005B9DB9 /* Main.storyboard */; };
 		4A510BB81DFB91B0005B9DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A510BB71DFB91B0005B9DB9 /* Assets.xcassets */; };
 		4A510BBB1DFB91B0005B9DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A510BB91DFB91B0005B9DB9 /* LaunchScreen.storyboard */; };
-		4A510BC61DFB9256005B9DB9 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A510BC51DFB9256005B9DB9 /* AViewController.m */; };
 		4A510BC91DFB925E005B9DB9 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A510BC81DFB925E005B9DB9 /* BViewController.m */; };
 		659621CADA0A93D59DD76310 /* libPods-MainProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0B2024D7061067AECDBCA4 /* libPods-MainProject.a */; };
+		F29E02B720F48FDC00985ECF /* Target_B.m in Sources */ = {isa = PBXBuildFile; fileRef = F29E02B620F48FDC00985ECF /* Target_B.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +31,11 @@
 		4A510BB71DFB91B0005B9DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A510BBA1DFB91B0005B9DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A510BBC1DFB91B0005B9DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A510BC41DFB9256005B9DB9 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		4A510BC51DFB9256005B9DB9 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		4A510BC71DFB925E005B9DB9 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
 		4A510BC81DFB925E005B9DB9 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
 		BC0B2024D7061067AECDBCA4 /* libPods-MainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29E02B520F48FDC00985ECF /* Target_B.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_B.h; sourceTree = "<group>"; };
+		F29E02B620F48FDC00985ECF /* Target_B.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_B.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,6 @@
 		4A510BAA1DFB91B0005B9DB9 /* MainProject */ = {
 			isa = PBXGroup;
 			children = (
-				4A510BC31DFB924C005B9DB9 /* AViewController */,
 				4A510BC21DFB924C005B9DB9 /* BViewController */,
 				4A510BAE1DFB91B0005B9DB9 /* AppDelegate.h */,
 				4A510BAF1DFB91B0005B9DB9 /* AppDelegate.m */,
@@ -97,19 +96,20 @@
 		4A510BC21DFB924C005B9DB9 /* BViewController */ = {
 			isa = PBXGroup;
 			children = (
+				F29E02B420F48FB800985ECF /* Targets */,
 				4A510BC71DFB925E005B9DB9 /* BViewController.h */,
 				4A510BC81DFB925E005B9DB9 /* BViewController.m */,
 			);
 			path = BViewController;
 			sourceTree = "<group>";
 		};
-		4A510BC31DFB924C005B9DB9 /* AViewController */ = {
+		F29E02B420F48FB800985ECF /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				4A510BC41DFB9256005B9DB9 /* AViewController.h */,
-				4A510BC51DFB9256005B9DB9 /* AViewController.m */,
+				F29E02B520F48FDC00985ECF /* Target_B.h */,
+				F29E02B620F48FDC00985ECF /* Target_B.m */,
 			);
-			path = AViewController;
+			path = Targets;
 			sourceTree = "<group>";
 		};
 		FDAB92F25041AC2D87DFB2DA /* Pods */ = {
@@ -251,9 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A510BC61DFB9256005B9DB9 /* AViewController.m in Sources */,
 				4A510BB31DFB91B0005B9DB9 /* ViewController.m in Sources */,
 				4A510BB01DFB91B0005B9DB9 /* AppDelegate.m in Sources */,
+				F29E02B720F48FDC00985ECF /* Target_B.m in Sources */,
 				4A510BC91DFB925E005B9DB9 /* BViewController.m in Sources */,
 				4A510BAD1DFB91B0005B9DB9 /* main.m in Sources */,
 			);
@@ -414,6 +414,7 @@
 				4A510BC11DFB91B0005B9DB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
